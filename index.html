@@ -1,0 +1,64 @@
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+<style>
+	body {
+  background-image: url('1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div>
+<div class="menu">
+  <a href="index.html">Home</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="Event.html">Event</a>
+</div>
+
+<section class="showcase">
+  <div class="a-container">
+    <video src="a.mov" autoplay muted loop></video>
+  </div>
+  <div class="content">
+    <h1>♫ Is Fun </h1>
+    <h3>Ma Chung university</h3>
+    <a onclick="playAudio()" href="#isi" class="btn">Listen Me !</a>
+  </div>
+</section>
+
+<section id="isi">
+	<div>
+		<img height="100" width="100" src="2.png"></a>
+	  </div>
+
+  <p>
+    UKM Music merupakan kumpulan mahasiswa Ma Chung yang gemar mengapresiasi musik.Amatir
+    hingga profesional , kami terdiri dari banyak kalangan dan berbagai genre menunggu anda 
+    untuk menjadi bagian dari kami.
+  </p>
+  <a href="About us.html" class="btn">Pelajari tentang kami</a>
+  <a href="Regist.html" class="btn">Bergabung dengan kami</a>
+</section>
+<audio id="myAudio">
+	<source src="1.ogg" type="audio/ogg">
+  </audio>
+<script>
+	var x = document.getElementById("myAudio"); 
+	
+	function playAudio() { 
+	  x.play(); 
+	} 
+	function pauseAudio() { 
+	  x.pause(); 
+	} 
+	</script>
+	
+</body>
+<div class="footer">
+  <p>Copyright@Kucing Mwiz</p>
+</div>
+</html>

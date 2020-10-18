@@ -1,0 +1,88 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+<style>
+    .container {
+        padding: 16px;
+      }
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+      input[type=message]{
+        width: 100%;
+        padding: 100px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+      .message {
+        background-color: #3a5069;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+      body{
+        font-family: 'Open Sans', sans-serif;
+      }
+</style>
+</head>
+<body>
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="Event.html">Event</a>
+    </div>
+    <section id="isi">
+        <h2>
+            Contact US
+        </h2>
+     
+        <form name="">
+            <div class="container">
+              <hr>
+              <b>Email</b></label>
+              <input type="text" placeholder="Enter Email" id=email>
+              <b>Password</b></label>
+              <input type="password" placeholder="Enter Password" > 
+               <b>Message</b></label>
+              <input type="message" placeholder="Enter message" >
+               <button type="button" onclick=myFunction() class="Message" >Send Message</button>
+            </div>
+            <h2>
+              Get In Touch
+            </h2>
+       
+           <p>
+            T (0341) 550 171<br>
+            Email: info@machung.ac.id<br>
+           </p>
+           <p>
+            Universitas Ma Chung<br>
+            Villa Puncak Tidar N-01,<br>
+            65151, Malang, Jawa Timur<br>
+            , Indonesia<br>
+           </p>
+          </section>
+
+         <script>
+            function myFunction() {
+                var email = document.getElementById("email").value;
+                alert("Thanks "+email+" for your feed back!");
+                }
+        </script>
+        </div>
+</body>
+<div class="footer">
+  <p>Copyright@Kucing Mwiz</p>
+</div>
+</html>
